@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "vars.scss";
+@import "components/header.scss";
+@import "components/shop.scss";
+@import "components/furniture.scss";
+@import "components/bestseller.scss";
+@import "components/floyd.scss";
+@import "components/reviews.scss";
+@import "components/partners.scss";
+@import "components/feather-promo.scss";
+@import "components/footer.scss";
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}

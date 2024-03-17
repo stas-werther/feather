@@ -1,0 +1,59 @@
+.furniture {
+    padding: 130px 0;
+
+    &__info {
+        max-width: 892px;
+        text-align: center;
+        margin: 0 auto 94px auto;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-size: 36px;
+    }
+
+    &__desc {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    &__item:nth-child(even) {
+        flex-direction: row-reverse;
+        padding-left: 0;
+    }
+
+    &__text {
+        max-width: 400px;
+
+        &-title {
+            margin-bottom: 20px;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        &-desc {
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    &__link {
+        color: rgb(233, 103, 43);
+        font-size: 18px;
+        text-decoration: none;
+    }
+}

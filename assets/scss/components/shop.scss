@@ -1,0 +1,52 @@
+.shop {
+
+    padding: 70px 0;
+    background-color: var(--mid-color);
+
+    &__title {
+        margin-bottom: 43px;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: rgb(255, 255, 255);
+
+        &--1 {
+            border: 2px solid rgb(233, 103, 43);
+            box-shadow: 8px 8px 0px 0px rgb(203, 198, 244);
+        }
+
+        &--2 {
+            border: 2px solid rgb(34, 93, 202);
+            box-shadow: 8px 8px 0px 0px rgb(231, 203, 67);
+        }
+
+        &--3 {
+            border: 2px solid rgb(36, 41, 71);
+            box-shadow: 8px 8px 0px 0px rgb(162, 212, 197);
+        }
+
+        &--4 {
+            border: 2px solid rgb(222, 67, 51);
+            box-shadow: 8px 8px 0px 0px rgb(175, 73, 32);
+        }
+
+        img {
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            margin-bottom: 19px;
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.floyd {
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__info {
+        width: 100%;
+        padding: 65px 60px;
+        background-color: #E9672B;
+        text-align: center;
+    }
+
+    &__logo {
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+        font-size: 36px;
+        line-height: 44px;
+        color: var(--white-color);
+    }
+
+    &__button {
+        cursor: pointer;
+        padding: 16px 40px;
+        background-color: var(--white-color);
+        border: none;
+        border-radius: 88px;
+        transition: 0.3s;
+    }
+
+    &__button:hover {
+        transform: scale(1.1);
+    }
+
+}

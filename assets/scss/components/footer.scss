@@ -1,0 +1,74 @@
+.footer {
+    padding: 80px 215px 210px 80px;
+    background-color: #F3F0EC;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list::after {
+        content: url('/assets/img/door.svg');
+        cursor: pointer;
+        position: absolute;
+        left: 1480px;
+        right: 80px;
+        top: 7780px;
+
+        height: 88px;
+    }
+
+    &__list-title {
+        margin-bottom: 25px;
+        font-size: 16px;
+        letter-spacing: 1.28px;
+        text-transform: uppercase;
+    }
+
+    &__list-inner {
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: var(--black-color);
+            transition: 0.3s;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &__item-inner+&__item-inner {
+        margin-top: 10px;
+    }
+
+    &__social {
+        margin-bottom: 55px;
+    }
+
+    &__social-icons {
+
+        img {
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__news-title::after {
+        content: "";
+        display: block;
+        margin-top: 60px;
+        width: 100%;
+        height: 2px;
+        background-color: var(--black-color);
+    }
+
+    @media(max-width: 1530px) {
+        &__list::after {
+            display: none;
+        }
+    }
+}
